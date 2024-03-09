@@ -32,6 +32,13 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "content/posts",
+        defaultItem: () => {
+          return {
+            title: "New Post",
+            date: new Date().toISOString(),
+            draft: true,
+          };
+        },
         fields: [
           {
             type: "string",
@@ -45,6 +52,16 @@ export default defineConfig({
             name: "body",
             label: "Body",
             isBody: true,
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          {
+            type: "boolean",
+            name: "draft",
+            label: "Draft",
           },
         ],
       },

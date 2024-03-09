@@ -35,7 +35,7 @@ export default defineConfig({
         defaultItem: () => {
           return {
             title: "New Post",
-            date: new Date().toLocaleDateString(),
+            date: new Date().toLocaleDateString('en'),
             draft: false,
           };
         },

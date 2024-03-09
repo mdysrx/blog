@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "This is source code for MY English blog. YAY!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdysrx/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdysrx/blog/issues"
+  },
+  "homepage": "https://github.com/mdysrx/blog#readme",
+  "dependencies": {
+    "tinacms": "^1.6.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.42",
+    "@types/node": "^20.11.25"
+  }
+}

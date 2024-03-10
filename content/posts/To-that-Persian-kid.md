@@ -1,7 +1,7 @@
 ---
 title: To that Persian kid
 date: 2024-03-10T13:15:43.047Z
-draft: false
+draft: true
 ---
 
 ### To Ali Amir!

@@ -35,7 +35,7 @@ export default defineConfig({
         defaultItem: () => {
           return {
             title: "New Post",
-            date: new Date().toLocaleDateString('en'),
+            date: new Date().toLocaleDateString("en"),
             draft: false,
           };
         },
@@ -48,12 +48,6 @@ export default defineConfig({
             required: true,
           },
           {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-          {
             type: "datetime",
             name: "date",
             label: "Date",
@@ -62,6 +56,12 @@ export default defineConfig({
             type: "boolean",
             name: "draft",
             label: "Draft",
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
           },
         ],
       },

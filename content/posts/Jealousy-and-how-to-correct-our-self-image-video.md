@@ -15,5 +15,6 @@ Part of being alive is trying to be our best, and sometimes we go harsh on ourse
 * Life is race, but your race is only yours, not anyone else's
 * Without a reference on how to know when is enough, we will suffer
 * Society is biased toward making humans more miserable, for the benefit of an elite
+* The perspective of Islam on how we should treat ourselves
 
 This was my take on the topic, and if you want to discuss more, comment on the video or reach out to me at any of the links on the homepage. Have a great day/night.

@@ -77,6 +77,8 @@ params:
 
   socialIcons:
     - name: x
+      url: "https://youtube.com.com/@mdysrx"
+    - name: youtube 
       url: "https://x.com/mdysrx"
     - name: github
       url: "https://github.com/mdysrx"

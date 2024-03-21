@@ -76,9 +76,9 @@ params:
     Content: Here you find most things Muhammad Yasser
 
   socialIcons:
-    - name: x
+    - name: youtube
       url: "https://youtube.com.com/@mdysrx"
-    - name: youtube 
+    - name: x 
       url: "https://x.com/mdysrx"
     - name: github
       url: "https://github.com/mdysrx"

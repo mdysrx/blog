@@ -16,7 +16,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Muhammad Yasser
-  description: "ExampleSite description"
+  description: "Muhammad Yasser - Most things Muhammad Yasser"
   keywords: [fantasy, art]
   # author: Me
   # author: ["Me", "You"] # multiple authors
@@ -119,10 +119,10 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
+    # - identifier: tags
+      # name: Tags
+      # url: /tags/
+      # weight: 20
     - identifier: about
       name: About
       url: /about

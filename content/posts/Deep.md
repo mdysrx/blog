@@ -3,7 +3,7 @@ title: Deep
 date: 2024-03-10T17:20:24.103Z
 draft: false
 cover:
-  image: https://unsplash.com/photos/kMFFA1GmYJo/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fGRlZXB8ZW58MHx8fHwxNzExMTUwMzAxfDA&force=true&w=640
+  image: https://i.imgur.com/CpaQwKx.jpg
   alt: Deep view
   caption: unsplash.com/@visualize
 ---

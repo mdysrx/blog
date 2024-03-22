@@ -2,6 +2,11 @@
 title: Deep
 date: 2024-03-10T17:20:24.103Z
 draft: false
+cover:
+  image: >-
+    https://unsplash.com/photos/kMFFA1GmYJo/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fGRlZXB8ZW58MHx8fHwxNzExMTUwMzAxfDA&force=true&w=640
+  alt: Deep view
+  caption: unsplash.com/@visualize
 ---
 
 that time when I want to go deep, to escape all the superficiality and focus, pure focus, if that makes any sense.

@@ -1,24 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-<!-- Open Graph / Facebook -->
-<!-- <meta property="og:type" content="website">
-<meta property="og:url" content="https://mdysrx.vercel.app">
-<meta property="og:title" content="Post Title">
-<meta property="og:description" content="Post Description">
-<meta property="og:image" content="<cover-image-url>">
-
-<!-- Twitter -->
-<!-- <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://mdysrx.vercel.app">
-<meta property="twitter:title" content="Post Title">
-<meta property="twitter:description" content="Post Description">
-<meta property="twitter:image" content="<cover-image-url>"> --> -->
-
-<!-- ------------------------------- -->
-
 {{- if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
 <meta name="robots" content="index, follow">
 {{- else }}
@@ -52,10 +34,6 @@
 {{- end }}
 {{- if site.Params.analytics.naver.SiteVerificationTag }}
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
-
-<!-- ----------- custom opengraph metas --------------- -->
-
-
 {{- end }}
 
 {{- /* Styles */}}

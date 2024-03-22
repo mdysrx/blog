@@ -59,6 +59,28 @@ export default defineConfig({
             label: "Draft",
           },
           {
+            type: "object",
+            name: "cover",
+            label: "Cover Image",
+            fields: [
+              {
+                label: "URL",
+                name: "image",
+                type: "string"
+              },
+              {
+                name: "alt",
+                label: "Alt",
+                type: "string"
+              },
+              {
+                name: "caption",
+                label: "Caption",
+                type: "string"
+              }
+            ]
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",

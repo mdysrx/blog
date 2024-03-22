@@ -59,18 +59,18 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Muhammad Yasser
     subtitle: "Most things Muhammad Yasser"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    imageUrl: "https://i.imgur.com/nVbU6pN.jpg"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: DREAMING
     buttons:
-      - name: Posts
+      - name: Read my posts here
         url: posts
-      - name: Tags
-        url: tags
+      # - name: Tags
+      #   url: tags
 
   # home-info mode
   homeInfoParams:

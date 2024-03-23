@@ -59,7 +59,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Muhammad Yasser
     subtitle: "Most things Muhammad Yasser"
     imageUrl: "https://i.imgur.com/nVbU6pN.jpg"

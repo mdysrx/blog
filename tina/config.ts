@@ -65,25 +65,33 @@ export default defineConfig({
               {
                 label: "URL",
                 name: "image",
-                type: "string"
+                type: "string",
               },
               {
                 name: "alt",
                 label: "Alt",
-                type: "string"
+                type: "string",
               },
               {
                 name: "caption",
                 label: "Caption",
-                type: "string"
-              }
-            ]
+                type: "string",
+              },
+            ],
           },
           {
             type: "rich-text",
             name: "body",
             label: "Body",
             isBody: true,
+          },
+          {
+            type: "string",
+            name: "summary",
+            label: "Summary",
+            ui: {
+              component: "textarea",
+            },
           },
         ],
       },

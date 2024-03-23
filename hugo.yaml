@@ -2,6 +2,8 @@ baseURL: https://mdysrx.vercel.app
 languageCode: en-us
 title: Muhammad Yasser - Most things Muhammad Yasser
 theme: PaperMod
+paginate: 5
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -98,7 +100,6 @@ params:
 
   cover:
     hidden: true # hide everywhere but not in structured data
-    # hiddenInSingle: true # hide on single page
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: false # hide on single page
     # linkFullImages: true

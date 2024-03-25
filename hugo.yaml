@@ -1,8 +1,74 @@
 baseURL: https://mdysrx.vercel.app
-languageCode: en-us
-title: Muhammad Yasser - Most things Muhammad Yasser
 theme: PaperMod
 paginate: 5
+defaultContentLanguage: ar
+defaultContentLanguageInSubdir: true
+
+languages:
+  ar:
+    disabled: false
+    contentDir: content/ar
+    languageCode: ar
+    languageDirection: rtl
+    languageName: العربية
+    title: محمد ياسر - معظم الأشياء محمد ياسر
+    weight: 1
+    params:
+      homeInfoParams:
+        Title: "مرحبًا يا زعيم 🌄"
+        Content: "هنا تجد معظم الأشياء محمد ياسر"
+      label:
+        text: "الرئيسية"
+        # icon: /apple-touch-icon.png
+        iconHeight: 35
+    # arabic menus config
+    menu:
+      main:
+        - identifier: posts
+          name: المقالات
+          url: /posts/
+          weight: 10
+        # - identifier: tags
+        # name: Tags
+        # url: /tags/
+        # weight: 20
+        - identifier: about
+          name: عني
+          url: /about
+          weight: 30
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    title: Muhammad Yasser | Most things Muhammad Yasser
+    params:
+      label:
+        text: "Home"
+        # icon: /apple-touch-icon.png
+        iconHeight: 35
+      homeInfoParams:
+        Title: "Hi, chief 🌄"
+        Content: Here you find most things Muhammad Yasser
+
+    weight: 2
+
+    # english menus config
+    menu:
+      main:
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 10
+        # - identifier: tags
+        # name: Tags
+        # url: /tags/
+        # weight: 20
+        - identifier: about
+          name: About
+          url: /about
+          weight: 30
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -12,6 +78,7 @@ buildExpired: false
 disqusShortname: blog-gsqw0slmf7
 
 # googleAnalytics: UA-123-45
+# LANGUAGES
 
 minify:
   disableXML: true
@@ -56,11 +123,6 @@ params:
     apple_touch_icon: "/apple-touch-icon.png"
     # safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "Home"
-    # icon: /apple-touch-icon.png
-    iconHeight: 35
-
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
@@ -77,9 +139,6 @@ params:
       #   url: tags
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hi, chief 🌄"
-    Content: Here you find most things Muhammad Yasser
 
   socialIcons:
     - name: youtube
@@ -90,6 +149,7 @@ params:
       url: "https://github.com/mdysrx"
     - name: instagram
       url: "https://instagram.com/mdysrx"
+
   # analytics:
   #   google:
   #     SiteVerificationTag: "XYZabc"
@@ -120,20 +180,6 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: posts
-      name: Posts
-      url: /posts/
-      weight: 10
-    # - identifier: tags
-    # name: Tags
-    # url: /tags/
-    # weight: 20
-    - identifier: about
-      name: About
-      url: /about
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

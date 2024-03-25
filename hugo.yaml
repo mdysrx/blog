@@ -7,7 +7,7 @@ defaultContentLanguageInSubdir: true
 languages:
   ar:
     disabled: false
-    contentDir: content/ar
+    contentDir: content/arabic
     languageCode: ar
     languageDirection: rtl
     languageName: العربية
@@ -37,7 +37,7 @@ languages:
           url: /about
           weight: 30
   en:
-    contentDir: content/en
+    contentDir: content/english
     disabled: false
     languageCode: en-US
     languageDirection: ltr

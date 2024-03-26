@@ -39,6 +39,14 @@ export default defineConfig({
             draft: false,
           };
         },
+        ui: {
+          filename: {
+            slugify: (values) => {
+              const slug = `${values?.title?.toLowerCase().replace(/ /g, "-")}`;
+              return slug;
+            },
+          },
+        },
         fields: [
           {
             type: "string",
